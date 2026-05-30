@@ -70,15 +70,6 @@ Results are saved to:
 - Revenue impact calculation
 - Customer retention recommendations
 
-## 📝 For Your Report
-
-Key points to include:
-1. **Problem**: Customer churn costs businesses millions
-2. **Solution**: ML-based prediction using Apache Spark
-3. **Methods**: Logistic Regression, Random Forest, GBT
-4. **Results**: 84% accuracy, identified top 5 churn factors
-5. **Impact**: Can save $X per year in retention costs
-
 ## 🐛 Troubleshooting
 
 **Error: "Java not found"**
@@ -105,15 +96,6 @@ python utils/data_generator.py
 3. **Visualize**: Create charts from the evaluation results
 4. **Deploy**: Consider deploying the best model
 
-## 🎓 Academic Tips
-
-For your final year presentation:
-1. **Demo Live**: Run the pipeline during presentation
-2. **Show ROC Curve**: Visual impact is powerful
-3. **Explain Features**: Which factors matter most for churn?
-4. **Business Value**: Translate accuracy to dollar savings
-5. **Future Work**: Deep learning, real-time predictions, etc.
-
 ## ⏱️ Time Estimates
 
 | Task | Time |
@@ -135,4 +117,4 @@ See the main `README.md` for:
 
 ---
 
-**Good luck with your project! 🎓✨**
+**Let's get started! 🚀**
