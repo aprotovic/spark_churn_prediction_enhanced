@@ -2,7 +2,7 @@
 
 ## 📋 Project Overview
 
-This project implements a **Customer Churn Prediction System** using Apache Spark and MLlib. It predicts whether a customer will leave (churn) a telecommunications service based on their usage patterns and demographics.
+This project implements a **Customer Churn Prediction System** using Apache Spark and MLlib. It predicts whether a customer will leave (churn) a telecommunications service based on their usage patterns and customer profile data.
 
 ### Why This Project?
 
@@ -10,15 +10,6 @@ This project implements a **Customer Churn Prediction System** using Apache Spar
 - **Big Data Ready**: Uses Spark for scalability to millions of records
 - **End-to-End Pipeline**: Covers data preprocessing, feature engineering, model training, and evaluation
 - **Multiple Algorithms**: Compares Logistic Regression, Random Forest, and Gradient-Boosted Trees
-
-## 🎯 Learning Objectives
-
-- Master Apache Spark DataFrame operations
-- Implement ML pipelines with Spark MLlib
-- Handle imbalanced datasets
-- Perform feature engineering and selection
-- Compare multiple classification algorithms
-- Evaluate models using industry-standard metrics
 
 ## 📊 Dataset
 
@@ -223,25 +214,6 @@ spark-submit \
 - **ROI Calculator**: Measure retention campaign effectiveness
 - **Explainable AI**: Use SHAP values to explain predictions to business users
 
-## 🎓 Academic Considerations
-
-### For Your Final Year Report
-
-1. **Problem Statement**: Clearly define customer churn and its business impact
-2. **Literature Review**: Review existing churn prediction approaches
-3. **Methodology**: Explain Spark architecture and MLlib algorithms
-4. **Implementation**: Detail your feature engineering decisions
-5. **Results**: Compare models with statistical significance tests
-6. **Discussion**: Analyze why certain features matter most
-7. **Conclusion**: Summarize findings and business recommendations
-
-### Presentation Tips
-- Demonstrate scalability by showing time comparisons (small vs large datasets)
-- Visualize feature importance to show business insights
-- Calculate revenue impact (e.g., "Retaining 100 customers saves $X")
-- Show ROC curves and confusion matrices
-- Discuss ethical considerations (privacy, fairness)
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -286,11 +258,11 @@ export JAVA_HOME=/path/to/java
 
 ## 📝 License
 
-This project is created for educational purposes. Feel free to use and modify for your academic work.
+This project is created for educational and commercial purposes. Feel free to use and modify.
 
 ## 🤝 Contributing
 
-This is an educational project. Suggestions for improvements are welcome!
+Contributions are welcome! Feel free to submit pull requests with improvements.
 
 ## 📧 Support
 
@@ -299,18 +271,3 @@ If you encounter any issues:
 2. Review the code comments
 3. Consult Spark documentation
 4. Search Stack Overflow for Spark-specific questions
-
-## 🌟 Project Highlights for Resume
-
-- Built end-to-end ML pipeline using Apache Spark and MLlib
-- Processed and analyzed 7K+ customer records with distributed computing
-- Implemented and compared 3 classification algorithms achieving 84% accuracy
-- Engineered 15+ features including interaction terms and behavioral indicators
-- Deployed scalable solution capable of handling millions of records
-- Applied best practices: cross-validation, hyperparameter tuning, class balancing
-
----
-
-**Good luck with your final year project! 🚀**
-
-*Remember: The key to a successful project is not just running the code, but understanding WHY each decision was made and being able to explain it to your evaluators.*
