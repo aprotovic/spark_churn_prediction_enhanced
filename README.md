@@ -9,22 +9,6 @@ An enterprise-scale, distributed machine learning pipeline built on **Apache Spa
 
 ---
 
-## 📸 Model Evaluation & Visual Analytics
-
-<div align="center">
-  <img src="docs/screenshots/spark_roc_curve.png" alt="Spark Model Evaluation ROC Curve" width="90%" />
-  <p><i>Figure 1: Comparative ROC curves across Logistic Regression, Random Forest, and GBT Classifier.</i></p>
-</div>
-
-<div align="center">
-  <img src="docs/screenshots/churn_feature_importance.png" alt="Feature Importance Ranking" width="90%" />
-  <p><i>Figure 2: PySpark feature importance chart highlighting tenure, contract type, and monthly charges.</i></p>
-</div>
-
-> **Tip:** Place your evaluation charts in `docs/screenshots/spark_roc_curve.png` and `docs/screenshots/churn_feature_importance.png`.
-
----
-
 ## 📊 Benchmark Results
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
